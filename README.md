@@ -24,7 +24,7 @@ original files are left unchanged.
 
 1. Choose **Add rosters…** and select one or more team roster files.
 2. Choose **Add PDFs…** and select one or more meet heat sheets.
-3. Review the roster colors and output location. Leave **Exact match** selected
+3. Review the roster colors and output location. Leave **Exact** selected
    for your first run.
 4. Choose **3. Highlight PDFs** and wait for the run to finish. Turn on
    **Scanned PDF (Slower)** first when any heat-sheet page is scanned or
@@ -92,7 +92,7 @@ settings data.
 Windows is the only supported platform. There is no supported macOS version or
 installer.
 
-Use **Check for updates** inside Swim Highlighter, or return to the
+Use **Check for updates now** inside Swim Highlighter, or return to the
 [latest release page](https://github.com/TrevorStallings/SwimHighlighter-Releases/releases/latest).
 The app does not download or install updates automatically; it asks before
 opening the installer download or release page.
