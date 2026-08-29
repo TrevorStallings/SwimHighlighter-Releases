@@ -22,14 +22,18 @@ original files are left unchanged.
 
 ## Quick start
 
-1. Choose **Add rosters…** and select one or more team roster files.
-2. Choose **Add PDFs…** and select one or more meet heat sheets.
-3. Review the roster colors and output location. Leave **Exact** selected
-   for your first run.
-4. Choose **3. Highlight PDFs** and wait for the run to finish. Turn on
-   **Scanned PDF (Slower)** first when any heat-sheet page is scanned or
-   image-only.
-5. Review the results, then open each completed highlighted copy or its folder.
+1. Under **1. Roster files**, choose **+ Add Rosters** and select one or more
+   team roster files.
+2. Under **2. Heat-sheet PDFs**, choose **+ Add Heat Sheets** and select one or
+   more meet heat sheets.
+3. Use **Advanced** beside either file section to review roster matching,
+   colors, output location, scanned-PDF handling, and missing-name delivery.
+   Leave **Exact** selected for your first run.
+4. Choose **Highlight Heat Sheet** and wait for the run to finish. Enable
+   **Scanned PDF (Slower)** in Advanced Heat Sheet Options first when any
+   heat-sheet page is scanned or image-only.
+5. Use **Processing Results** to open each completed highlighted copy and any
+   available Missing Names or Coach Planning summary.
 
 ## Files you can use
 
@@ -49,13 +53,20 @@ only and can take longer.
 
 - **Exact match** is the most conservative choice. **Fuzzy** matching can catch
   small spelling differences; turn on fuzzy-match review when you want to
-  approve uncertain matches before saving.
+  approve uncertain matches before saving. **Review Possible Matches** offers
+  a separate opt-in check for normally unmatched names and never confirms one
+  automatically.
 - Each roster has its own highlight color, and you can change the color and
   opacity. If the same swimmer appears on more than one roster, the first
   roster's color is used.
-- You can add a missing-names summary to the result.
+- You can view a missing-names summary in the app, attach it to the highlighted
+  PDF, do both, or suppress the detailed list.
 - Optional USA Swimming Standards can be shown with the meet events or added
   as summary pages. Check whether the meet uses SCY, SCM, or LCM before running.
+- Optional Coach Planning creates session-only Busy Heats and Competition Gaps
+  summaries for highlighted swimmers. Swimmer Meet Summary can compare a
+  selected swimmer's seed position, standards progress, and recovery context
+  within loaded heat sheets.
 - Team presets can remember frequently used roster locations, colors, and
   common options on your computer. They never load automatically.
 
