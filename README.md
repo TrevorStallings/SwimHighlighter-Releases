@@ -22,40 +22,40 @@ original files are left unchanged.
 
 ## Quick start
 
-1. Under **1. Roster files**, choose **+ Add Rosters** and select one or more
+1. Under **1. Roster files**, choose **Add Rosters** and select one or more
    team roster files.
-2. Under **2. Heat-sheet PDFs**, choose **+ Add Heat Sheets** and select one or
+2. Under **2. Heat-sheet PDFs**, choose **Add Heat Sheets** and select one or
    more meet heat sheets.
-3. Use **Advanced** beside either file section to review roster matching,
-   colors, output location, scanned-PDF handling, and missing-name delivery.
-   Leave **Exact** selected for your first run.
-4. Choose **Highlight Heat Sheet** and wait for the run to finish. Enable
-   **Scanned PDF (Slower)** in Advanced Heat Sheet Options first when any
-   heat-sheet page is scanned or image-only.
+3. Review file-check status. Use **Advanced** in Roster files for colors,
+   optional spelling-match review, and team presets. Use **Advanced** in
+   Heat-sheet PDFs for output location, opening finished PDFs, and missing-name
+   delivery. Matching and scanned-page recognition run automatically.
+4. Choose **Highlight Heat Sheet** when the file checks are ready.
 5. Use **Processing Results** to open each completed highlighted copy and any
-   available Missing Names or Coach Planning summary.
+   available Missing Names, Coach Planning, or Swimmer Meet Summary report.
+   **Start Next Meet** keeps the selected rosters and preferences while clearing
+   the previous meet's heat sheets and results.
 
 ## Files you can use
 
 Rosters can be Excel workbooks, comma-separated files, plain-text lists, or
 PDF documents with selectable text. Spreadsheet and comma-separated rosters
-need a header containing `Name`. Use either one full-name column, or separate
-`First Name` and `Last Name` columns. `Nick Name` and `Preferred Name` columns
-can supply additional matching choices. A text roster can list one swimmer per
-line or separate names with semicolons.
+need a supported full-name column or a clear first-name/last-name pair, such as
+`First Name` and `Last Name`. `Nick Name` and `Preferred Name` columns can add
+matching choices. A text roster can list one swimmer per line or separate names
+with semicolons.
 
-Heat sheets must be PDF documents. Ordinary digital heat sheets with selectable
-text use the fastest and most reliable path. For a scanned or image-only heat
-sheet, turn on **Scanned PDF (Slower)**. Scanned-page recognition is English
-only and can take longer.
+Heat sheets must be PDF documents. Ordinary digital heat sheets with usable
+selectable text take the fast path. Scanned or image-only pages use automatic,
+local English OCR when needed, which can take longer. Scanned roster PDFs still
+need to be exported as searchable PDFs before adding them.
 
 ## Helpful options
 
-- **Exact match** is the most conservative choice. **Fuzzy** matching can catch
-  small spelling differences; turn on fuzzy-match review when you want to
-  approve uncertain matches before saving. **Review Possible Matches** offers
-  a separate opt-in check for normally unmatched names and never confirms one
-  automatically.
+- **Name matching** checks strict names first, then uniquely supported spelling
+  variations. Optional spelling-match review lets you accept or reject pairs
+  before saving; **Review Possible Matches** is a separate opt-in check for
+  normally unmatched names and never confirms one automatically.
 - Each roster has its own highlight color, and you can change the color and
   opacity. If the same swimmer appears on more than one roster, the first
   roster's color is used.
@@ -85,13 +85,13 @@ settings data.
 
 ## Troubleshooting
 
-- **No swimmers were found:** Check that the roster contains names, confirm
-  the first and last names are on the same row, and try fuzzy matching if the
-  heat sheet uses slightly different spellings or nicknames.
-- **A scanned heat sheet has no selectable text:** Turn on **Scanned PDF
-  (Slower)** and run it again.
-- **A fuzzy match looks wrong:** Use exact matching, or enable fuzzy-match
-  review so you can reject uncertain matches before the result is saved.
+- **No swimmers were found:** Check the roster's name columns, the file-check
+  results, and whether the heat sheet uses different spellings or nicknames.
+- **A scanned heat sheet has no selectable text:** The app checks the page with
+  local OCR automatically. If recognition fails, follow the page-specific error
+  guidance; scanned roster PDFs must be exported as searchable PDFs first.
+- **A spelling match looks wrong:** Enable spelling-match review in Advanced
+  Roster Options to reject the pair before the result is saved.
 - **The result cannot be saved:** Choose a location where you can save files,
   close an older result if it is open in another program, and try again. The
   app does not overwrite an input heat sheet.
